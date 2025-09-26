@@ -9,7 +9,7 @@ on:
         required: false
         default: ''
       text:
-        description: 'jcg q20'
+        description: 'EasyTier 由 Rust 和 Tokio 驱动✨ 一个简单、安全、去中心化的异地组网方案'
         required: false
         default: ''
 concurrency:
@@ -54,7 +54,7 @@ jobs:
           - x86_64
           
         sdk:
-          - 23.05.6
+          - 24.10.2
           - SNAPSHOT
 
     steps:
